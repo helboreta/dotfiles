@@ -1,0 +1,21 @@
+set nocompatible
+
+filetype on
+filetype indent on
+filetype plugin on
+
+call pathogen#infect()
+
+syntax enable
+
+colorscheme zenburn
+
+set autoindent
+set fileencoding=utf-8
+set encoding=utf-8
+set backspace=indent,eol,start
+set smartcase
+set number
+set incsearch
+set showmatch
+set cursorline

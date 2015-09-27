@@ -1,0 +1,3 @@
+# my bashrc file
+
+for f in ~/bin/dotfiles/bash/components/*; do [ -f $f ] && source $f; done

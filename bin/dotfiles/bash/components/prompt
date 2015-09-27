@@ -1,0 +1,9 @@
+# PROMPT
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+source $DIR/git-components/git-prompt.sh
+
+PS1="
+\u \W \$(__git_ps1)
+$"
