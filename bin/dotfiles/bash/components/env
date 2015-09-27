@@ -4,9 +4,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 export RBENV_ROOT=/usr/local/var/rbenv
 
-export PATH="~/bin:$PATH"
-export PATH="~/Library/Android/sdk/platform-tools:$PATH"
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="/usr/local/git/bin/git:$PATH"
+export PATH="/usr/local/git/bin/git:/usr/local/heroku/bin:~/Library/Android/sdk/platform-tools:~/bin:$PATH"
 export NODE_ENV=’development’

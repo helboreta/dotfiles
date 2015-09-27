@@ -6,6 +6,7 @@ sudo -v
 cp -R ./bin ~/bin
 
 xcode-select --install
+# java -version
 
 read -p "Press [ENTER] key when finished..."
 

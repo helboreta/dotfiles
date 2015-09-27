@@ -16,6 +16,7 @@ apps=(
   evernote
   google-chrome
   google-drive
+  java
   microsoft-office
   moom
   skype

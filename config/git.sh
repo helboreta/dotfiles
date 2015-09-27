@@ -11,6 +11,6 @@ ssh-add ~/.ssh/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
 echo "Paste on github"
 read -p "Press [Enter] key to continue..."
-ssh -T git@github.com
+# ssh -T git@github.com
 
 exit 0
