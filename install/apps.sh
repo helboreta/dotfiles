@@ -19,6 +19,7 @@ apps=(
   java
   microsoft-office
   moom
+  selfcontrol
   skype
   slack
   spotify
