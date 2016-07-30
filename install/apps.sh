@@ -11,7 +11,7 @@ apps=(
   android-file-transfer
   android-studio
   atom
-  chromecast
+  mkchromecast
   dropbox
   evernote
   google-chrome
@@ -23,7 +23,7 @@ apps=(
   skype
   slack
   spotify
-  sublime-text3
+  sublime-text
   vagrant
   vlc
 )
@@ -71,7 +71,7 @@ main() {
 
   # Install homebrew-cask
   echo "installing cask..."
-  brew install caskroom/cask/brew-cask
+  brew tap caskroom/cask
 
   # Tap alternative versions
   brew tap caskroom/versions

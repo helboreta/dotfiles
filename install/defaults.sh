@@ -31,11 +31,16 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 #Enable repeat on keydown
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+#Show hidden files
+defaults write com.apple.finder AppleShowAllFiles TRUE
+
 #Show the ~/Library folder
 chflags nohidden ~/Library
 
 #Store screenshots in subfolder on desktop
 mkdir ~/Desktop/Screenshots
 defaults write com.apple.screencapture location ~/Desktop/Screenshots
+
+killall Finder /System/Library/CoreServices/Finder.app
 
 exit 0

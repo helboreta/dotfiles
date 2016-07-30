@@ -10,9 +10,9 @@ xcode-select --install
 
 read -p "Press [ENTER] key when finished..."
 
-# sh ./install/defaults.sh
 sh ./install/binaries.sh
 sh ./install/apps.sh
+sh ./install/defaults.sh
 
 rm -f ~/.bash_profile
 rm -f ~/.inputrc
